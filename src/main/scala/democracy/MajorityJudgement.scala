@@ -32,7 +32,7 @@ object Grade:
    */
   def median(grades: Seq[Grade]): Grade =
     grades
-      .sortBy(grade => grade.ordinal)
+      .sortBy(_.ordinal)
       .apply(grades.size/2)
 end Grade
 
@@ -82,7 +82,7 @@ case class Election(description: String, candidates: Set[Candidate]):
     // containing all the grades that were assigned to a given
     // `Candidate`.
     val gradesPerCandidate: Map[Candidate, Seq[Grade]] =
-      allGrades.groupMap((key,value)=>key)((key,value)=>value)
+      allGrades.groupMap(_._1)(_._2)
 
     findWinner(gradesPerCandidate)
   end elect
@@ -112,21 +112,21 @@ case class Election(description: String, candidates: Set[Candidate]):
       val bestMedianGrade: Grade =
         gradesPerCandidate
           .values
-          .filter(grade => grade.nonEmpty)
+          .filter(_.nonEmpty)
           .map(Grade.median)
-          .maxBy(grade => grade.ordinal)
+          .maxBy(_.ordinal)
 
       // Use the operation `filter` to select all the candidates that got the
       // same best median grade (as the case may be)
       val bestCandidates: Map[Candidate, Seq[Grade]] =
         gradesPerCandidate
-          .filter((key,value)=>Grade.median(value) == bestMedianGrade)
+          .filter((_,gs)=>Grade.median(gs) == bestMedianGrade)
 
       // In case only one candidate got the best median grade, it’s the winner!
       if bestCandidates.size == 1 then
         // Use the operation `head` to retrieve the only element
         // of the collection `bestCandidates`
-        bestCandidates.keys.head
+        bestCandidates.head._1
       else
         // Otherwise, there is a tie between several candidates. The tie-breaking
         // algorithm is the following:

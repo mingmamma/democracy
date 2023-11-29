@@ -312,3 +312,48 @@ Nov. 29, 2023 5:16:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCom
 INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
 Nov. 29, 2023 5:16:56 PM scala.meta.internal.pc.CompilerAccess handleError
 SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/democracy/.metals/.reports/metals-full/2023-11-29/r_compiler-error_(democracy-build)_17-16-56-041.md
+2023.11.29 20:43:32 INFO  compiling democracy (1 scala source)
+2023.11.29 20:43:32 INFO  time: compiled democracy in 0.8s
+2023.11.29 20:43:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 20:43:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 20:43:56 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:43:56 INFO  Trying to attach to remote debuggee VM localhost:56310 .
+2023.11.29 20:43:56 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 20:43:57 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:43:56 INFO  Closing debug server tcp://0.0.0.0:56306
+2023.11.29 20:44:35 INFO  compiling democracy (1 scala source)
+2023.11.29 20:44:35 INFO  time: compiled democracy in 0.45s
+2023.11.29 20:44:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 20:44:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 20:44:38 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:44:38 INFO  Trying to attach to remote debuggee VM localhost:56323 .
+2023.11.29 20:44:38 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 20:44:40 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:44:40 INFO  Closing debug server tcp://0.0.0.0:56320
+2023.11.29 20:45:08 INFO  compiling democracy (1 scala source)
+2023.11.29 20:45:08 INFO  time: compiled democracy in 0.46s
+2023.11.29 20:45:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 20:45:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 20:45:11 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:45:11 INFO  Trying to attach to remote debuggee VM localhost:56340 .
+2023.11.29 20:45:11 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 20:45:12 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:45:12 INFO  Closing debug server tcp://0.0.0.0:56336
+2023.11.29 20:45:58 INFO  compiling democracy (1 scala source)
+2023.11.29 20:45:58 INFO  time: compiled democracy in 0.49s
+2023.11.29 20:46:09 INFO  compiling democracy (1 scala source)
+2023.11.29 20:46:09 INFO  time: compiled democracy in 0.35s
+2023.11.29 20:46:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 20:46:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 20:46:15 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:46:15 INFO  Trying to attach to remote debuggee VM localhost:56358 .
+2023.11.29 20:46:15 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 20:46:15 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:46:15 INFO  Closing debug server tcp://0.0.0.0:56354
+2023.11.29 20:46:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 20:46:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 20:46:59 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:46:59 INFO  Trying to attach to remote debuggee VM localhost:56371 .
+2023.11.29 20:46:59 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 20:47:00 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2023.11.29 20:47:00 INFO  Closing debug server tcp://0.0.0.0:56367
