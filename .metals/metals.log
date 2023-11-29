@@ -1,0 +1,314 @@
+2023.11.29 14:45:11 INFO  Started: Metals version 1.1.0 in folders '/Users/mingma/democracy' for client Visual Studio Code 1.84.2.
+2023.11.29 14:45:12 WARN  Build server is not auto-connectable.
+2023.11.29 14:45:12 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 14:45:18 INFO  no build target found for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.29 14:45:21 INFO  time: code lens generation in 9.21s
+Nov. 29, 2023 2:48:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+2023.11.29 14:53:10 INFO  time: code lens generation in 1.11s
+2023.11.29 14:54:06 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 14:55:12 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 15:01:50 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+Nov. 29, 2023 3:15:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.29 15:32:45 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 15:44:37 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:44:40 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:44:42 INFO  time: evaluated worksheet 'test.worksheet.sc' in 4.68s
+2023.11.29 15:44:44 INFO  time: evaluated worksheet 'test.worksheet.sc' in 1.66s
+2023.11.29 15:44:46 INFO  no build target found for /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.29 15:44:50 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:1:57: identifier expected but _ found
+Map("a" -> List(11,111), "b" -> List(22,222)).flatMap(_._)
+                                                        ^
+2023.11.29 15:44:51 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.48s
+2023.11.29 15:45:16 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:1:55: 
+Not found: key
+Map("a" -> List(11,111), "b" -> List(22,222)).flatMap(key.value)
+                                                      ^^^
+2023.11.29 15:45:16 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.27s
+2023.11.29 15:46:29 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:1:78: ; expected but ) found
+Map("a" -> List(11,111), "b" -> List(22,222)).flatMap((key,value)=>key.value))
+                                                                             ^
+2023.11.29 15:46:29 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.3s
+2023.11.29 15:46:34 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:1:68: 
+method value cannot be accessed as a member of (key : String) from class MdocApp.
+Map("a" -> List(11,111), "b" -> List(22,222)).flatMap((key,value)=>key.value)
+                                                                   ^^^^^^^^^
+2023.11.29 15:46:34 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.26s
+2023.11.29 15:47:12 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:1:68: 
+method value cannot be accessed as a member of (key : String) from class MdocApp.
+Map("a" -> List(11,111), "b" -> List(22,222)).flatMap((key,value)=>key.value)
+                                                                   ^^^^^^^^^
+2023.11.29 15:47:13 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.29s
+2023.11.29 15:47:50 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:47:50 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.44s
+2023.11.29 15:49:25 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:5:73: ) expected but end of file found
+Map(0 -> "zero", 1 -> "one").flatMap((key,_) => Map(key.toString -> key)
+                                                                        ^
+2023.11.29 15:49:26 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.23s
+2023.11.29 15:49:35 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:49:36 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.5s
+2023.11.29 15:49:51 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:5:69: 
+Missing parameter type
+
+I could not infer the type of the parameter _$3 of expanded function:
+_$3 => key.toString -> _$3.
+Map(0 -> "zero", 1 -> "one").flatMap((key,_) => Map(key.toString -> _))
+                                                                    ^
+2023.11.29 15:49:51 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.22s
+2023.11.29 15:50:12 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:50:12 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.45s
+2023.11.29 15:51:33 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:1:68: 
+method value cannot be accessed as a member of (key : String) from class MdocApp.
+Map("a" -> List(11,111), "b" -> List(22,222)).flatMap((key,value)=>key.value)
+                                                                   ^^^^^^^^^
+2023.11.29 15:51:33 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.21s
+Nov. 29, 2023 3:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1840
+2023.11.29 15:52:08 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:52:08 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.47s
+2023.11.29 15:53:29 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed string interpolation
+  Map("Can1 -> "zero", 1 -> "one").flatMap((key,value) => Map(key.toString -> value))
+                                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.29 15:53:39 ERROR Failed to tokenize input for semantic tokens for /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed string interpolation
+  Map("Can1" -> "zero", "Can2 -> "one").flatMap((key,value) => Map(key.toString -> value))
+                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.11.29 15:56:46 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:56:46 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.67s
+2023.11.29 15:56:56 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:7:19: 
+Found:    ((String, String), (String, String))
+Required: Map[String, String]
+val Bal1 = Ballot("Can1" -> "zero", "Can2" -> "one")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.11.29 15:56:56 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.28s
+2023.11.29 15:57:16 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:57:17 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.49s
+2023.11.29 15:57:24 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:57:24 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.48s
+2023.11.29 15:58:14 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:58:14 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.67s
+2023.11.29 15:58:35 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+[31merror[39m: src/main/scala/democracy/test.worksheet.sc:10:1: 
+Not found: ballots
+ballots.flatMap(ballot => ballot.grades)
+^^^^^^^
+2023.11.29 15:58:36 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.26s
+2023.11.29 15:58:41 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/test.worksheet.sc
+2023.11.29 15:58:42 INFO  time: evaluated worksheet 'test.worksheet.sc' in 0.52s
+2023.11.29 16:25:25 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 16:25:35 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 16:33:25 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 16:34:16 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+Nov. 29, 2023 4:34:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/democracy/.metals/.reports/metals-full/2023-11-29/r_compiler-error_16-34-20-136.md
+2023.11.29 16:34:42 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 16:34:55 WARN  no build target for: /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2023.11.29 16:35:16 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/2k/yqztx7j11_70cvfdxc0p1bl80000gn/T/metals3993509130094618226/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.29 16:35:16 WARN  no build target for: /Users/mingma/democracy/project/metals.sbt
+2023.11.29 16:35:16 WARN  no build target for: /Users/mingma/democracy/project/project/metals.sbt
+2023.11.29 16:35:16 INFO  skipping build import with status 'Started'
+2023.11.29 16:35:18 INFO  [info] welcome to sbt 1.8.2 (AdoptOpenJDK Java 11.0.7)
+2023.11.29 16:35:21 INFO  [info] loading settings for project democracy-build-build-build from metals.sbt ...
+2023.11.29 16:35:22 INFO  [info] loading project definition from /Users/mingma/democracy/project/project/project
+2023.11.29 16:35:24 INFO  [info] loading settings for project democracy-build-build from metals.sbt ...
+2023.11.29 16:35:24 INFO  [info] loading project definition from /Users/mingma/democracy/project/project
+2023.11.29 16:35:26 INFO  [success] Generated .bloop/democracy-build-build.json
+2023.11.29 16:35:26 INFO  [success] Total time: 2 s, completed 29 Nov. 2023, 4:35:26 pm
+2023.11.29 16:35:28 INFO  [info] loading settings for project democracy-build from buildSettings.sbt,metals.sbt,plugins.sbt ...
+2023.11.29 16:35:28 INFO  [info] loading project definition from /Users/mingma/democracy/project
+2023.11.29 16:35:30 INFO  [success] Generated .bloop/democracy-build.json
+2023.11.29 16:35:30 INFO  [info] compiling 3 Scala sources to /Users/mingma/democracy/project/target/scala-2.12/sbt-1.0/classes ...
+2023.11.29 16:35:35 INFO  [info] done compiling
+2023.11.29 16:35:35 INFO  [success] Total time: 8 s, completed 29 Nov. 2023, 4:35:36 pm
+2023.11.29 16:35:38 INFO  [info] loading settings for project democracy from assignment.sbt,build.sbt ...
+2023.11.29 16:35:38 INFO  [info] set current project to effective-scala-democracy (in build file:/Users/mingma/democracy/)
+2023.11.29 16:35:39 INFO  [success] Generated .bloop/democracy-test.json
+2023.11.29 16:35:39 INFO  [success] Generated .bloop/democracy.json
+2023.11.29 16:35:39 INFO  [success] Total time: 0 s, completed 29 Nov. 2023, 4:35:39 pm
+2023.11.29 16:35:39 INFO  time: ran 'sbt bloopInstall' in 23s
+2023.11.29 16:35:39 INFO  Attempting to connect to the build server...
+2023.11.29 16:35:39 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home defined at /Users/mingma/.bloop/bloop.json
+2023.11.29 16:35:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/bsp.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.29 16:35:39 INFO  Attempting to connect to the build server...
+2023.11.29 16:35:39 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home defined at /Users/mingma/.bloop/bloop.json
+2023.11.29 16:35:39 INFO  Attempting to connect to the build server...
+2023.11.29 16:35:39 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home defined at /Users/mingma/.bloop/bloop.json
+2023.11.29 16:35:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/project/project/.metals/bsp.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.29 16:35:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/project/.metals/bsp.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.11.29 16:35:39 INFO  time: Connected to build server in 0.49s
+2023.11.29 16:35:39 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.29 16:35:46 INFO  time: indexed workspace in 6.5s
+2023.11.29 16:35:54 INFO  compiling democracy (1 scala source)
+2023.11.29 16:35:56 INFO  time: compiled democracy in 2.24s
+2023.11.29 16:36:45 INFO  compiling democracy (1 scala source)
+2023.11.29 16:36:45 INFO  time: compiled democracy in 0.66s
+2023.11.29 16:36:58 INFO  compiling democracy (1 scala source)
+2023.11.29 16:36:58 INFO  time: compiled democracy in 0.55s
+2023.11.29 16:40:09 INFO  compiling democracy (1 scala source)
+2023.11.29 16:40:09 INFO  time: compiled democracy in 0.84s
+2023.11.29 16:42:24 INFO  compiling democracy (1 scala source)
+2023.11.29 16:42:24 INFO  time: compiled democracy in 0.54s
+2023.11.29 16:43:39 INFO  compiling democracy (1 scala source)
+2023.11.29 16:43:39 INFO  time: compiled democracy in 0.71s
+2023.11.29 16:44:17 INFO  compiling democracy (1 scala source)
+2023.11.29 16:44:17 INFO  time: compiled democracy in 0.49s
+2023.11.29 16:54:31 INFO  compiling democracy (1 scala source)
+2023.11.29 16:54:31 INFO  time: compiled democracy in 0.6s
+2023.11.29 16:55:10 INFO  compiling democracy (1 scala source)
+2023.11.29 16:55:10 INFO  time: compiled democracy in 0.6s
+2023.11.29 16:56:51 INFO  compiling democracy (1 scala source)
+2023.11.29 16:56:51 INFO  time: compiled democracy in 0.45s
+2023.11.29 16:57:43 INFO  compiling democracy (1 scala source)
+2023.11.29 16:57:43 INFO  time: compiled democracy in 0.42s
+2023.11.29 16:59:57 INFO  compiling democracy (1 scala source)
+2023.11.29 16:59:57 INFO  time: compiled democracy in 0.16s
+Nov. 29, 2023 5:00:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4721
+2023.11.29 17:00:23 INFO  compiling democracy (1 scala source)
+2023.11.29 17:00:23 WARN  Using indexes to guess the definition of Candidate
+2023.11.29 17:00:23 INFO  time: compiled democracy in 0.5s
+2023.11.29 17:00:29 INFO  compiling democracy (1 scala source)
+2023.11.29 17:00:29 INFO  time: compiled democracy in 0.14s
+2023.11.29 17:00:32 INFO  compiling democracy (1 scala source)
+2023.11.29 17:00:32 INFO  time: compiled democracy in 0.57s
+2023.11.29 17:00:58 INFO  compiling democracy (1 scala source)
+2023.11.29 17:00:58 INFO  time: compiled democracy in 0.4s
+2023.11.29 17:01:09 INFO  compiling democracy (1 scala source)
+2023.11.29 17:01:09 INFO  time: compiled democracy in 0.53s
+2023.11.29 17:01:20 INFO  compiling democracy (1 scala source)
+2023.11.29 17:01:20 INFO  time: compiled democracy in 0.45s
+2023.11.29 17:01:46 INFO  time: evaluated worksheet 'test.worksheet.sc' in 6.74s
+2023.11.29 17:01:50 INFO  compiling democracy-test (1 scala source)
+2023.11.29 17:01:50 INFO  time: compiled democracy-test in 0.99s
+2023.11.29 17:02:35 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 17:02:35 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 17:02:35 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(The median of an empty collection is undefined)]
+2023.11.29 17:02:35 INFO  Trying to attach to remote debuggee VM localhost:56159 .
+2023.11.29 17:02:35 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 17:02:36 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(The median of an empty collection is undefined)]
+2023.11.29 17:02:36 INFO  Closing debug server tcp://0.0.0.0:56156
+2023.11.29 17:04:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 17:04:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 17:04:30 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with a single element should be that element)]
+2023.11.29 17:04:30 INFO  Trying to attach to remote debuggee VM localhost:56170 .
+2023.11.29 17:04:30 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 17:04:31 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with a single element should be that element)]
+2023.11.29 17:04:31 INFO  Closing debug server tcp://0.0.0.0:56167
+2023.11.29 17:04:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 17:04:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 17:04:33 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with two elements can be any of those two elements)]
+2023.11.29 17:04:33 INFO  Trying to attach to remote debuggee VM localhost:56182 .
+2023.11.29 17:04:33 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 17:04:34 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(The median of a collection with two elements can be any of those two elements)]
+2023.11.29 17:04:34 INFO  Closing debug server tcp://0.0.0.0:56178
+2023.11.29 17:07:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 17:07:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 17:07:01 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(The first \(resp\. second\) half of a sorted collection should be lower \(resp\. higher\) than the median grade)]
+2023.11.29 17:07:01 INFO  Trying to attach to remote debuggee VM localhost:56196 .
+2023.11.29 17:07:01 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 17:07:02 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(The first \(resp\. second\) half of a sorted collection should be lower \(resp\. higher\) than the median grade)]
+2023.11.29 17:07:02 INFO  Closing debug server tcp://0.0.0.0:56192
+2023.11.29 17:10:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 17:10:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 17:10:55 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(A median value minimizes the arithmetic mean of the absolute deviations of a collection)]
+2023.11.29 17:10:55 INFO  Trying to attach to remote debuggee VM localhost:56207 .
+2023.11.29 17:10:55 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 17:10:56 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(A median value minimizes the arithmetic mean of the absolute deviations of a collection)]
+2023.11.29 17:10:56 INFO  Closing debug server tcp://0.0.0.0:56204
+2023.11.29 17:12:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 17:12:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 17:12:19 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(The winner is the candidate that received an absolute majority of the highest grades given by all the voters)]
+2023.11.29 17:12:19 INFO  Trying to attach to remote debuggee VM localhost:56219 .
+2023.11.29 17:12:19 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 17:12:20 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(The winner is the candidate that received an absolute majority of the highest grades given by all the voters)]
+2023.11.29 17:12:19 INFO  Closing debug server tcp://0.0.0.0:56216
+2023.11.29 17:14:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.11.29 17:14:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.11.29 17:14:38 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite(full scenario with a tie-break and the same grades for cooking and hiking)]
+2023.11.29 17:14:38 INFO  Trying to attach to remote debuggee VM localhost:56232 .
+2023.11.29 17:14:38 INFO  Attaching to debuggee VM succeeded.
+2023.11.29 17:14:39 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite(full scenario with a tie-break and the same grades for cooking and hiking)]
+2023.11.29 17:14:39 INFO  Closing debug server tcp://0.0.0.0:56229
+2023.11.29 17:16:30 INFO  compiling democracy-build (3 scala sources)
+2023.11.29 17:16:31 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.17. Compiling...
+2023.11.29 17:16:35 INFO  time: code lens generation in 4.97s
+2023.11.29 17:16:40 INFO    Compilation completed in 8.687s.
+2023.11.29 17:16:48 INFO  time: compiled democracy-build in 17s
+Nov. 29, 2023 5:16:53 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov. 29, 2023 5:16:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/democracy/.metals/.reports/metals-full/2023-11-29/r_compiler-error_(democracy-build)_17-16-53-488.md
+Nov. 29, 2023 5:16:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/democracy/.metals/.reports/metals-full/2023-11-29/r_compiler-error_(democracy-build)_17-16-54-251.md
+2023.11.29 17:16:54 WARN  Could not find semantic tokens for: jar:file:///Users/mingma/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.8.2/main_2.12-1.8.2-sources.jar!/sbt/BuildSyntax.scala
+Nov. 29, 2023 5:16:54 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov. 29, 2023 5:16:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/democracy/.metals/.reports/metals-full/2023-11-29/r_compiler-error_(democracy-build)_17-16-55-209.md
+Nov. 29, 2023 5:16:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov. 29, 2023 5:16:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/democracy/.metals/.reports/metals-full/2023-11-29/r_compiler-error_(democracy-build)_17-16-56-041.md
