@@ -357,3 +357,561 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2023.11.29 20:46:59 INFO  Attaching to debuggee VM succeeded.
 2023.11.29 20:47:00 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
 2023.11.29 20:47:00 INFO  Closing debug server tcp://0.0.0.0:56367
+2023.11.29 20:48:14 INFO  Shutting down server
+2023.11.29 20:48:14 INFO  shutting down Metals
+2023.11.29 20:48:14 INFO  Shut down connection with build server.
+2023.11.29 20:48:14 INFO  Shut down connection with build server.
+2023.11.29 20:48:14 INFO  Shut down connection with build server.
+2023.11.29 20:48:14 INFO  Exiting server
+2024.01.21 17:58:48 INFO  Started: Metals version 1.2.0 in folders '/Users/mingma/democracy' for client Visual Studio Code 1.85.1.
+2024.01.21 17:58:50 INFO  Attempting to connect to the build server...
+2024.01.21 17:58:50 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home defined at /Users/mingma/.bloop/bloop.json
+2024.01.21 17:58:50 INFO  skipping build import with status 'Installed'
+2024.01.21 17:58:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/bsp.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.21 17:58:51 INFO  Attempting to connect to the build server...
+2024.01.21 17:58:51 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home defined at /Users/mingma/.bloop/bloop.json
+2024.01.21 17:58:51 INFO  Attempting to connect to the build server...
+2024.01.21 17:58:51 INFO  Bloop uses /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home defined at /Users/mingma/.bloop/bloop.json
+2024.01.21 17:58:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/project/.metals/bsp.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.21 17:58:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/project/project/.metals/bsp.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.01.21 17:58:51 INFO  time: Connected to build server in 1.22s
+2024.01.21 17:58:51 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.21 17:58:51 INFO  time: Imported build in 0.16s
+2024.01.21 17:58:55 INFO  no build target found for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Jan. 21, 2024 5:58:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jan. 21, 2024 5:58:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jan. 21, 2024 5:58:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan. 21, 2024 5:58:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Jan. 21, 2024 5:58:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.01.21 17:58:58 INFO  no build target found for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2024.01.21 17:58:59 INFO  time: indexed workspace in 3.82s
+2024.01.21 17:59:03 INFO  compiling democracy (1 scala source)
+2024.01.21 17:59:05 INFO  time: compiled democracy in 1.73s
+2024.01.21 17:59:05 INFO  compiling democracy-test (1 scala source)
+2024.01.21 17:59:06 INFO  time: compiled democracy-test in 1.38s
+2024.01.21 18:15:36 INFO  compiling democracy (1 scala source)
+2024.01.21 18:15:36 INFO  time: compiled democracy in 0.79s
+2024.01.21 18:15:52 INFO  compiling democracy (1 scala source)
+2024.01.21 18:15:53 INFO  time: compiled democracy in 1.15s
+2024.01.21 18:15:53 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:15:55 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:15:56 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:15:56 INFO  compiling democracy (1 scala source)
+2024.01.21 18:15:56 INFO  time: compiled democracy in 0.82s
+2024.01.21 18:16:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.01.21 18:16:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.01.21 18:16:02 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2024.01.21 18:16:04 INFO  Trying to attach to remote debuggee VM localhost:61134 .
+2024.01.21 18:16:04 INFO  Attaching to debuggee VM succeeded.
+2024.01.21 18:16:05 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2024.01.21 18:16:05 INFO  Closing debug server tcp://0.0.0.0:61130
+2024.01.21 18:16:13 INFO  compiling democracy (1 scala source)
+2024.01.21 18:16:13 INFO  time: compiled democracy in 0.67s
+2024.01.21 18:19:11 INFO  compiling democracy (1 scala source)
+2024.01.21 18:19:11 INFO  time: compiled democracy in 0.57s
+2024.01.21 18:20:00 INFO  compiling democracy (1 scala source)
+2024.01.21 18:20:00 INFO  time: compiled democracy in 0.61s
+2024.01.21 18:37:59 INFO  compiling democracy (1 scala source)
+2024.01.21 18:38:01 INFO  time: compiled democracy in 1.25s
+Jan. 21, 2024 6:48:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1511
+2024.01.21 18:48:59 INFO  compiling democracy (1 scala source)
+2024.01.21 18:49:00 INFO  time: compiled democracy in 1.3s
+2024.01.21 18:49:25 INFO  compiling democracy (1 scala source)
+2024.01.21 18:49:25 INFO  time: compiled democracy in 0.6s
+2024.01.21 18:55:23 INFO  compiling democracy (1 scala source)
+2024.01.21 18:55:23 INFO  Deduplicating compilation of democracy from bsp client 'Metals 1.2.0' (since 56m 32.007s)
+2024.01.21 18:55:23 INFO  compiling democracy (1 scala source)
+2024.01.21 18:55:24 INFO  time: compiled democracy in 0.71s
+2024.01.21 18:59:33 INFO  compiling democracy (1 scala source)
+2024.01.21 18:59:33 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:33 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:33 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:33 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:34 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:34 INFO  time: compiled democracy in 1.31s
+2024.01.21 18:59:35 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:34 INFO  compiling democracy (1 scala source)
+2024.01.21 18:59:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:36 INFO  time: compiled democracy in 0.68s
+2024.01.21 18:59:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:58 INFO  compiling democracy (1 scala source)
+2024.01.21 18:59:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 18:59:58 INFO  time: compiled democracy in 0.45s
+2024.01.21 18:59:59 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:00:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:00:42 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:00:47 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:00:48 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:00:51 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:00:52 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:00:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:21 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:25 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:27 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:28 INFO  compiling democracy (1 scala source)
+2024.01.21 19:02:28 INFO  time: compiled democracy in 0.24s
+2024.01.21 19:02:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:34 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:35 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:38 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:38 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:38 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:38 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:38 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:38 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:02:40 INFO  compiling democracy (1 scala source)
+2024.01.21 19:02:40 INFO  time: compiled democracy in 0.26s
+2024.01.21 19:02:41 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:07 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:09 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:10 INFO  compiling democracy (1 scala source)
+2024.01.21 19:03:10 INFO  time: compiled democracy in 0.47s
+2024.01.21 19:03:11 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:26 INFO  compiling democracy (1 scala source)
+2024.01.21 19:03:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:26 INFO  time: compiled democracy in 0.49s
+2024.01.21 19:03:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:49 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:55 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:56 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:03:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:16 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:19 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:19 INFO  compiling democracy (1 scala source)
+2024.01.21 19:04:19 INFO  time: compiled democracy in 0.39s
+2024.01.21 19:04:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:26 INFO  compiling democracy (1 scala source)
+2024.01.21 19:04:26 INFO  time: compiled democracy in 0.22s
+2024.01.21 19:04:27 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:27 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:27 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:46 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:46 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:47 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:48 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:49 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:50 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:50 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:51 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:52 INFO  compiling democracy (1 scala source)
+2024.01.21 19:04:52 INFO  time: compiled democracy in 0.37s
+2024.01.21 19:04:52 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:55 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:56 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:04:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:05:00 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:05:01 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:05:02 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:05:03 INFO  compiling democracy (1 scala source)
+2024.01.21 19:05:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:05:03 INFO  time: compiled democracy in 0.16s
+2024.01.21 19:05:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:05:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:05:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:11 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:12 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:16 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:16 INFO  compiling democracy (1 scala source)
+2024.01.21 19:06:16 INFO  time: compiled democracy in 0.15s
+2024.01.21 19:06:16 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:23 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:29 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:30 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:30 INFO  compiling democracy (1 scala source)
+2024.01.21 19:06:30 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:30 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:30 INFO  time: compiled democracy in 0.16s
+2024.01.21 19:06:30 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:32 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:32 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:33 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:33 INFO  compiling democracy (1 scala source)
+2024.01.21 19:06:33 INFO  time: compiled democracy in 0.15s
+2024.01.21 19:06:34 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:37 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:37 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 INFO  compiling democracy (1 scala source)
+2024.01.21 19:06:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:06:40 INFO  time: compiled democracy in 0.42s
+2024.01.21 19:06:41 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:07:01 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:07:49 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:07:55 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:07:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:36 INFO  compiling democracy (1 scala source)
+2024.01.21 19:08:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:36 INFO  time: compiled democracy in 0.34s
+2024.01.21 19:08:37 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:42 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:46 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:47 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:51 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:52 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:52 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:53 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:55 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:08:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:02 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:04 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:05 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:07 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:08 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:08 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:08 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:08 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:08 INFO  compiling democracy (1 scala source)
+2024.01.21 19:09:08 INFO  time: compiled democracy in 0.16s
+2024.01.21 19:09:09 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:22 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:31 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:31 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:32 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:37 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:41 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:09:43 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:13 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:14 INFO  compiling democracy (1 scala source)
+2024.01.21 19:10:14 INFO  time: compiled democracy in 0.13s
+2024.01.21 19:10:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:15 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:21 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:22 INFO  compiling democracy (1 scala source)
+2024.01.21 19:10:22 INFO  time: compiled democracy in 0.2s
+2024.01.21 19:10:22 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:22 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:22 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:22 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:22 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+Jan. 21, 2024 7:10:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mingma/democracy/.metals/.reports/metals-full/2024-01-21/r_compiler-error_(democracy)_19-10-23-350.md
+2024.01.21 19:10:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:41 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:42 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:43 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:44 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:44 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:45 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:10:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:01 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:04 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:06 INFO  compiling democracy (1 scala source)
+2024.01.21 19:11:06 INFO  time: compiled democracy in 0.36s
+2024.01.21 19:11:07 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:09 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:15 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:16 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:17 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:18 INFO  compiling democracy (1 scala source)
+2024.01.21 19:11:18 INFO  time: compiled democracy in 0.36s
+2024.01.21 19:11:18 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:51 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:52 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:11:58 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:13 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:16 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:20 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:22 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:22 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:23 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:24 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:25 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:30 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:30 INFO  compiling democracy (1 scala source)
+2024.01.21 19:12:30 INFO  time: compiled democracy in 0.13s
+2024.01.21 19:12:30 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:34 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:35 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:35 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:36 INFO  compiling democracy (1 scala source)
+2024.01.21 19:12:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:37 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:37 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:36 INFO  time: compiled democracy in 0.41s
+2024.01.21 19:12:37 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:12:51 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:13:53 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:14:00 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:05 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:06 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:07 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:07 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:18 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:19 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:21 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:23 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:23 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:25 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:29 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:37 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:41 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:42 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:44 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:48 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:15:52 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:02 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:05 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:05 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:06 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:07 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:08 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:09 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:13 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:15 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:16 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:16 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:17 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:17 INFO  compiling democracy (1 scala source)
+2024.01.21 19:16:17 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:17 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:17 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:17 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:16:17 INFO  time: compiled democracy in 0.47s
+2024.01.21 19:16:24 INFO  compiling democracy (1 scala source)
+2024.01.21 19:16:24 INFO  time: compiled democracy in 0.33s
+Jan. 21, 2024 7:16:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3873
+2024.01.21 19:17:50 INFO  compiling democracy (1 scala source)
+2024.01.21 19:17:50 INFO  Deduplicating compilation of democracy from bsp client 'Metals 1.2.0' (since 1h 18m 59.11s)
+2024.01.21 19:17:50 INFO  compiling democracy (1 scala source)
+2024.01.21 19:17:50 INFO  time: compiled democracy in 0.16s
+2024.01.21 19:17:54 INFO  compiling democracy (1 scala source)
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+Jan. 21, 2024 7:17:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4071
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.21 19:17:54 INFO  time: compiled democracy in 0.42s
+2024.01.21 19:17:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.01.21 19:17:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.01.21 19:17:58 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2024.01.21 19:17:58 INFO  Trying to attach to remote debuggee VM localhost:61307 .
+2024.01.21 19:17:58 INFO  Attaching to debuggee VM succeeded.
+2024.01.21 19:17:59 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2024.01.21 19:17:59 INFO  Closing debug server tcp://0.0.0.0:61303
+2024.01.22 19:10:18 WARN  Using indexes to guess the definition of grades
+2024.01.22 19:10:47 INFO  compiling democracy (1 scala source)
+2024.01.22 19:10:51 INFO  time: compiled democracy in 3.42s
+2024.01.22 19:10:51 INFO  compiling democracy (1 scala source)
+2024.01.22 19:10:53 INFO  time: compiled democracy in 1.97s
+2024.01.22 19:15:28 INFO  compiling democracy (1 scala source)
+2024.01.22 19:15:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:15:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:15:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:15:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:15:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:15:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:15:28 INFO  time: compiled democracy in 0.46s
+2024.01.22 19:15:29 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:15:32 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:15:32 INFO  compiling democracy (1 scala source)
+2024.01.22 19:15:32 INFO  time: compiled democracy in 0.6s
+2024.01.22 19:16:49 INFO  compiling democracy (1 scala source)
+2024.01.22 19:16:49 INFO  time: compiled democracy in 0.81s
+2024.01.22 19:16:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.01.22 19:16:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.01.22 19:16:52 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2024.01.22 19:16:52 INFO  Trying to attach to remote debuggee VM localhost:64751 .
+2024.01.22 19:16:52 INFO  Attaching to debuggee VM succeeded.
+2024.01.22 19:16:53 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2024.01.22 19:16:53 INFO  Closing debug server tcp://0.0.0.0:64747
+2024.01.22 19:17:50 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:17:50 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:17:50 INFO  compiling democracy (1 scala source)
+2024.01.22 19:17:50 INFO  time: compiled democracy in 0.77s
+2024.01.22 19:21:55 INFO  compiling democracy (1 scala source)
+2024.01.22 19:21:55 INFO  time: compiled democracy in 0.59s
+2024.01.22 19:22:08 INFO  compiling democracy (1 scala source)
+2024.01.22 19:22:08 INFO  time: compiled democracy in 0.68s
+2024.01.22 19:22:35 INFO  compiling democracy (1 scala source)
+2024.01.22 19:22:35 INFO  time: compiled democracy in 0.28s
+2024.01.22 19:22:36 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:38 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:39 INFO  compiling democracy (1 scala source)
+2024.01.22 19:22:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:39 INFO  time: compiled democracy in 0.17s
+2024.01.22 19:22:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:40 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:42 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:45 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:46 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:47 INFO  compiling democracy (1 scala source)
+2024.01.22 19:22:47 INFO  time: compiled democracy in 0.12s
+2024.01.22 19:22:47 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:47 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:47 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:53 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:55 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:57 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:22:59 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:00 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:01 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:02 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:02 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:03 INFO  compiling democracy (1 scala source)
+2024.01.22 19:23:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:03 INFO  time: compiled democracy in 0.16s
+2024.01.22 19:23:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:03 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:04 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:06 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:07 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:09 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:09 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:10 INFO  compiling democracy (1 scala source)
+2024.01.22 19:23:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:10 INFO  time: compiled democracy in 0.6s
+2024.01.22 19:23:11 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:21 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:28 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:28 INFO  compiling democracy (1 scala source)
+2024.01.22 19:23:28 INFO  time: compiled democracy in 0.15s
+2024.01.22 19:23:29 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:33 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:34 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:34 INFO  compiling democracy (1 scala source)
+2024.01.22 19:23:35 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:35 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:34 INFO  time: compiled democracy in 0.4s
+2024.01.22 19:23:35 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:23:39 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:24:10 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:24:11 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:24:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:24:16 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:24:17 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:24:21 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:24:23 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:24:48 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:14 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:25 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:26 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:27 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:29 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:30 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:32 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:33 INFO  compiling democracy (1 scala source)
+2024.01.22 19:25:33 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:33 WARN  Could not load snapshot text for /Users/mingma/democracy/src/main/scala/democracy/MajorityJudgement.scala
+2024.01.22 19:25:33 INFO  time: compiled democracy in 0.3s
+2024.01.22 19:25:44 INFO  compiling democracy (1 scala source)
+2024.01.22 19:25:44 INFO  time: compiled democracy in 0.32s
+2024.01.22 19:25:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-server.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2024.01.22 19:25:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mingma/democracy/.metals/dap-client.trace.json or /Users/mingma/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2024.01.22 19:25:52 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite()]
+2024.01.22 19:25:52 INFO  Trying to attach to remote debuggee VM localhost:64820 .
+2024.01.22 19:25:52 INFO  Attaching to debuggee VM succeeded.
+2024.01.22 19:25:53 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite()]
+2024.01.22 19:25:52 INFO  Closing debug server tcp://0.0.0.0:64816

@@ -1,3 +1,5 @@
+// Declare a lower-case package name that matches the directory containing the source code file
+// https://docs.scala-lang.org/tour/packages-and-imports.html#creating-a-package
 package democracy
 
 /**
@@ -11,6 +13,8 @@ package democracy
  *   Grade.Mediocre.ordinal < Grade.Good.ordinal
  * }}}
  */
+// Defining a simple, constant-like enum
+// https://docs.scala-lang.org/scala3/book/domain-modeling-tools.html#Enums_Scala_3_only
 enum Grade:
   case Bad, Mediocre, Inadequate, Passable, Good, VeryGood, Excellent
 
@@ -31,9 +35,15 @@ object Grade:
    * - `apply` to select an element at a specific index.
    */
   def median(grades: Seq[Grade]): Grade =
+    // available ops of Seq trait: https://docs.scala-lang.org/overviews/collections-2.13/seqs.html#operations-in-class-seq
     grades
-      .sortBy(_.ordinal)
+      // noting that the usage of enum variants usually requires
+      // the enums to well-sorted in their declaration, as in this
+      // example and another example where ordinal of 4 direction
+      // variants can be used to derive other directions correctly 
+      .sortBy(grade => grade.ordinal)
       .apply(grades.size/2)
+      // .apply(grades.length/2)
 end Grade
 
 /**
@@ -66,23 +76,30 @@ case class Election(description: String, candidates: Set[Candidate]):
    */
   def elect(ballots: Seq[Ballot]): Candidate =
     assert(ballots.nonEmpty)
-    assert(ballots.forall(_.grades.keySet == candidates))
+    assert(ballots.forall(ballot => ballot.grades.keySet == candidates))
 
     // Re-structure the data to get all the grades assigned to
     // each candidate by all the voters
 
     // First step: use the operation `flatMap` to flatten the ballots
-    // into a single sequence containing the grades assigned to each
-    // candidate by the voters.
+    // into a sequence of all (Candidate, Grade) pairs found in the ballots
+    // Noting that using flatMap on the Seq collection ballots returns a Seq collection
+    // https://docs.scala-lang.org/overviews/collections-2.13/trait-iterable.html#operations-in-class-iterable
     val allGrades: Seq[(Candidate, Grade)] =
       ballots.flatMap(ballot => ballot.grades)
 
-    // Second step: use the operation `groupMap` to transform the
+    // Second step: use the operation `groupMap` to transform the Seq
     // collection of pairs of `(Candidate, Grade)` into a `Map`
     // containing all the grades that were assigned to a given
     // `Candidate`.
     val gradesPerCandidate: Map[Candidate, Seq[Grade]] =
-      allGrades.groupMap(_._1)(_._2)
+      allGrades.groupMap(candidateGradePair => candidateGradePair._1)(candidateGradePair => candidateGradePair._2)
+      // less efficient but equivalent approach by chaining
+      // groupBy and map ops
+      // allGrades.groupBy(candidateGradePair => 
+      //   candidateGradePair._1).map(candidateWithSeq => 
+      //     (candidateWithSeq._1, candidateWithSeq._2.map(candidateGradePair => 
+      //       candidateGradePair._2)))
 
     findWinner(gradesPerCandidate)
   end elect
@@ -100,6 +117,8 @@ case class Election(description: String, candidates: Set[Candidate]):
     // is chosen by lottery from among the candidates.
     if gradesPerCandidate.forall((candidate, grades) => grades.isEmpty) then
       val candidatesSeq = gradesPerCandidate.keys.toSeq
+      // get a random num between 0 (inclusive) and candidatesSeq.size (exclusive)
+      // as the index to select a candidate at random
       val randomIndex   = util.Random.between(0, candidatesSeq.size)
       candidatesSeq(randomIndex)
     else
@@ -112,15 +131,15 @@ case class Election(description: String, candidates: Set[Candidate]):
       val bestMedianGrade: Grade =
         gradesPerCandidate
           .values
-          .filter(_.nonEmpty)
-          .map(Grade.median)
-          .maxBy(_.ordinal)
+          .filter(grades => grades.nonEmpty == true)
+          .map(grades => Grade.median(grades))
+          .maxBy(medianGrades => medianGrades.ordinal)
 
       // Use the operation `filter` to select all the candidates that got the
       // same best median grade (as the case may be)
       val bestCandidates: Map[Candidate, Seq[Grade]] =
         gradesPerCandidate
-          .filter((_,gs)=>Grade.median(gs) == bestMedianGrade)
+          .filter((candidate, gradesOfCandidate) => Grade.median(gradesOfCandidate) == bestMedianGrade)
 
       // In case only one candidate got the best median grade, it’s the winner!
       if bestCandidates.size == 1 then
@@ -140,8 +159,8 @@ case class Election(description: String, candidates: Set[Candidate]):
         // And use the operation `diff` to remove one `bestMedianGrade` from the
         // grades assigned to the candidates.
         val bestCandidatesMinusOneMedianGrade: Map[Candidate, Seq[Grade]] =
-          bestCandidates
-            .map((key,value)=>key->value.diff(List(bestMedianGrade)))
+          bestCandidates.map((candidate, gradesOfCandidate) => 
+            (candidate, gradesOfCandidate.diff(Seq(bestMedianGrade))))
   
         // Finally, call `findWinner` on the reduced collection of candidates,
         // `bestCandidatesMinusOneMedianGrade`.
